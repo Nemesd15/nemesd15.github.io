@@ -26,10 +26,7 @@
 	  max-width: 1000px;
 	  margin: 0 auto
   }
-  .referencia img{  
-  width: 25%;
-	 height: auto; 
-  }
+ 
   .content { background: gray}
   
   .content::after {
