@@ -8,7 +8,7 @@
 	  background: url('../pics/engineering.jpg');
 	  background-size: cover;
 	  background-attachment: fixed;
-	  color: white;
+	  color:white;
   font-size: 20px; }
   
   * { box-sizing: border-box
@@ -16,15 +16,15 @@
   
   header { 
   background: url('../pics/kép1.jpg');
-  color: #CEF6F5;
+  color: #58ACFA;
   font-size: 80px;
   font-weight: 700;
   padding: 58px 80px;
-  text-shadow: 0 0 20px rgba(0,0,0, .8)
+  text-shadow: 0 0 20px rgba(0,0,0, .8);
   }   
  .wrapper {
 	  max-width: 1000px;
-	  margin: 0 auto
+	  margin: 0 auto;
   }
  
   .content { background: gray}
@@ -44,32 +44,47 @@
 	  list-style: none;
   }
   nav ul li{
-	  border-bottom: 1px dashed rgba(255,255,255,2)
+	  border-bottom: 1px dashed rgba(255,255,255,2);
   }
   nav a { color: white;
   text-decoration: none;
   padding: 15px 0;
-  display: block
+  display: block;
   }
   nav a:hover{ padding: 15px;
-  background: rgb(167,160,160)
+  background: rgb(167,160,160);
   
   }
   
- 
+ a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: blue;
+}
   main { width: 75%;
   color: black;
   background: white;
+  background-color:rgba(0, 0, 0, 0.5);
   float: left;
   padding: 30px;
   }
 
   .float-left{ float: left;
-  margin: 0 20px 20px 0
+  margin: 0 20px 20px 0;
   }
   .float-right{ 
   float: right;
-  margin: 0 0 20px 20px
+  margin: 0 0 20px 20px;
   }
   
   
